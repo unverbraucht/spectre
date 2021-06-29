@@ -44,6 +44,7 @@
 }
 
 // Responsive grid system
+.cols,
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +65,7 @@
     overflow-x: auto;
   }
 }
+[class~="col-"],
 .column {
   flex: 1;
   max-width: 100%;
